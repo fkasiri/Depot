@@ -1,5 +1,5 @@
 class StoreController < ApplicationController
-  def idex
+  def index
   	@products = Product.order(:title)
   end
 end
